@@ -57,7 +57,43 @@ function afficherRendezvous() {
   rdvList.innerHTML = '';
   if (rendezvous.length === 0) {
     rdvList.textContent = 'Aucun rendez-vous prévu.';
-    return;
+    return;<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Barbershop 7eleven</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f6f6f6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #b40000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    }
+    #rendezvous-section input,
+    #rendezvous-section select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+      border-radius:
+
   }
   rendezvous.forEach((rdv, i) => {
     const li = document.createElement('li');
